@@ -5,5 +5,6 @@ public class ComandoDividir extends ComandoCalculadora implements Comando {
     public float ejecutar() {
         return acumulador / valor;
     }
+     // checar division entre 0
     
 }
